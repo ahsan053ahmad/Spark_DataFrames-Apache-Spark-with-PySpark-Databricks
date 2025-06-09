@@ -4,14 +4,14 @@ This repository contains my assignment submission for processing distributed dat
 
 ---
 
-### 🧩 Business Problem
+### Business Problem
 
 Handling large volumes of semi-structured data efficiently requires scalable tools like Apache Spark. This assignment simulated a real-world big data pipeline using Spark to analyze air traffic between the U.S. and other countries (2010–2015).  
 The goal was to extract insights such as traffic patterns, domestic vs. international flights, and yearly trends using a schema-aware, fault-tolerant distributed framework.
 
 ---
 
-### 📦 Dataset Overview
+### Dataset Overview
 
 The dataset consists of **CSV files (2010–2015)** available in Databricks File System:
 
@@ -22,7 +22,7 @@ The dataset consists of **CSV files (2010–2015)** available in Databricks File
 
 ---
 
-### 🎯 Project Objectives
+### Project Objectives
 
 The assignment focused on:
 
@@ -38,7 +38,7 @@ The assignment focused on:
 
 ---
 
-### 🛠️ Solution Approach
+### Solution Approach
 
 **1. Environment Setup & Housekeeping**
 - Imported PySpark modules: `pyspark.sql.functions` and `pyspark.sql.types`
@@ -68,7 +68,7 @@ The assignment focused on:
 
 ---
 
-### 💡 Business Value
+### Business Value
 
 This assignment simulates core data engineering and analytics workflows, demonstrating:
 
@@ -80,7 +80,7 @@ This assignment simulates core data engineering and analytics workflows, demonst
 
 ---
 
-### 🚧 Challenges Encountered
+### Challenges Encountered
 
 - Parsing file names to extract meaningful values (e.g., year)
 - Dealing with inferred vs. custom schema compatibility
